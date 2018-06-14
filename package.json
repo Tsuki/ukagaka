@@ -1,12 +1,27 @@
 {
   "name": "ukagaka",
-  "version": "0.0.1",
-  "license": "MIT",
-  "dependencies": {
-    "jquery": "^3.3.1"
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --port 8088",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tsuki/ukagaka.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tsuki/ukagaka/issues"
+  },
+  "homepage": "https://github.com/Tsuki/ukagaka#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
     "babelify": "^8.0.0",
     "browserify": "latest",
@@ -19,7 +34,23 @@
     "gulp-streamify": "^1.0.2",
     "gulp-uglify": "^3.0.0",
     "gulp-webserver": "^0.9.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.2",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.1",
+    "webpack-dev-server": "^3.1.4",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
   }
 }

@@ -1,0 +1,34 @@
+.ukagaka_img > img {
+  width: 270px;
+}
+
+.ukagaka_msg {
+  background: #1f1f1f;
+  color: #f0f0f0;
+  font-family: "Open Sans Light", "Georgia", "Microsoft YaHei", "Times New Roman", serif;
+  font-size: 100%;
+  line-height: 1.25em;
+  max-width: 200px;
+  padding: 10px;
+}
+
+.ukagaka_box {
+  background: #1f1f1f;
+  color: #f0f0f0;
+  font-family: "Open Sans Light", "Georgia", "Microsoft YaHei", "Times New Roman", serif;
+  font-size: 100%;
+  line-height: 1.25em;
+  max-width: 200px;
+  padding: 10px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}

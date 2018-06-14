@@ -27,3 +27,4 @@ typings/
 .next
 .idea
 build
+dist
